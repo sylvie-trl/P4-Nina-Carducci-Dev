@@ -78,6 +78,11 @@ header {
   width: 100%;
 }
 
+.visually-hidden {
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
 .about-me {
   text-align: left;
   padding-block: 0;
@@ -111,8 +116,8 @@ h2 {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link,
 .nav-link.active-tag {
-  color: #fff;
-  background-color: #beb45a;
+  color: #1a1a1a;
+  background-color: #8f8738;
   border-radius: 0;
 }
 .nav-pills .nav-link {
@@ -216,13 +221,14 @@ h2 {
 }
 .picture.right::before {
   content: " ";
-  background-color: #beb45a;
+  background-color: #8f8738;
   width: 374px;
   height: 329px;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -1;
+  color: #1a1a1a;
 }
 .form-container {
   flex: 2;
@@ -260,7 +266,8 @@ form textarea {
   margin-bottom: 20px;
 }
 .form-container button.submit {
-  background-color: #beb45a;
+  background-color: #8f8738;
+  color: #1a1a1a;
   padding: 0.5em 1em;
 }
 
